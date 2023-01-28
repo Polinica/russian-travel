@@ -2,7 +2,7 @@
   /* Сброс стандартных стилей */
   margin: 0;
   padding: 0;
-  list-style: normal;
+  /* list-style: normal; */
   /* Расположение ссылок в контейнере */
   display: flex;
   flex-wrap: wrap; /* Перенос, если много пунктов меню */
