@@ -12,7 +12,7 @@
 @media screen and (max-width: 1024px) {
   .place__title {
     /* Плавное уменьшение размера шрифта при изменении ширины браузера */
-    font-size: 6.8vw;
+    font-size: 7.03vw;
     line-height: 1.06;
   }
 }
@@ -20,8 +20,9 @@
 @media screen and (max-width: 768px) {
   .place__title {
     /* Плавное уменьшение размера шрифта при изменении ширины браузера */
-    font-size: 5.47vw; /* Соответствует макету для vw=768px */
+    font-size: 5.48vw; /* Соответствует макету для vw=768px */
     line-height: 1.1;
+    letter-spacing: 1px;
   }
 }
 
@@ -29,11 +30,13 @@
   .place__title {
     font-size: 10vw; /* Соответствует макету для vw=320px */
     line-height: 1.09;
+    width: calc(100% - 2 * 16px);
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__title {
     font-size: 32px; /* Фиксированное значение, чтобы больше не уменьшался */
+    width: calc(100% - 2 * 16px);
   }
 }

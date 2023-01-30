@@ -2,12 +2,9 @@
 @import url(../vendor/normalize.css);
 
 /* Шрифт Inter*/
-@import url(../fonts/Inter-Web/inter.css);
+@import url(../fonts/Inter-Web/fonts.css);
 
-/* Общий блок для всей страницы */
-@import url(../blocks/page/page.css);
-
-/* page */
+/* Общий блок для всей страницы page */
 @import url(../blocks/page/page.css);
 
 /* content */
@@ -71,3 +68,7 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+* {
+  outline: 1px solid yellowgreen;
+}

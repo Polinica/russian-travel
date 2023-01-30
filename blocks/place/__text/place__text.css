@@ -1,13 +1,13 @@
 .place__text {
   /* Сброс стандартного внешнего вида */
-  margin: 0;
+  margin: 0 0 27px;
   /* Параметры шрифта */
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.63;
+  line-height: 29px;
   /* Расстояние между абзацами текста */
-  margin-bottom: 26px;
+  /* margin-bottom: 26px; */
 }
 
 .place__text:last-of-type {
@@ -18,5 +18,6 @@
   .place__text {
     font-size: 16px;
     margin-bottom: 25px;
+    line-height: 26px;
   }
 }
